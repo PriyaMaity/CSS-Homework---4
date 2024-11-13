@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(rgb(230, 159, 161), rgb(247, 181, 203));
+}
+.navbar {
+  background-image: url("https://thehumanbean.com/cdn/shop/files/menu-header.jpg?v=1677781264&width=3840");
+  background-size: cover;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 0 10px black;
+  opacity: 0.9;
+}
+.navbar input{
+  background-color: rgb(91, 23, 23);
+  color: white;
+  height: 9vh;
+  width: 70vw;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  position: sticky;
+  top: 60px;
+}
+input:focus{
+  background-color: rgba(105, 29, 29, 0.9);
+  outline: none;
+}
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section .menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 40px;
+}
+.image{
+  height: 150px;
+  width: 150px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 8px 10px rgb(6, 6, 6);
+}
+
+.image img:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 9px 15px rgb(6, 6, 6);
+}
+.menu h4{
+  margin-top: 20px;
+  font-size: 20px;
+  display: block;
+}
+.About{
+  border: 2px solid rgb(238, 177, 187);
+  margin: 40px;
+  border-radius: 7px;
+  background-color: rgb(238, 177, 187);
+  color: rgb(201, 41, 68);
+  padding: 30px 30px;
+  box-shadow: 0 0 8px rgb(207, 71, 93);
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+.About li{
+  line-height: 30px;
+} 
+.About ol{
+  margin-top: 10px;
+}
